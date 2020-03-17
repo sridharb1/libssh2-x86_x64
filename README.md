@@ -25,7 +25,7 @@ without having to specify hardcoded library paths or names.
 
 # Note #
 
-To compile libssh, you need 
+To compile libssh2, you need 
 
   * [zlib, tested w/ v1.2.11](https://github.com/madler/zlib)
   * [OpenSSL, tested w/ v1.1.1e-DEV](https://github.com/openssl/openssl)
