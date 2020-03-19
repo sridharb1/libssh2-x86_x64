@@ -1,47 +1,47 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="$(SolutionDir)..\src\openssl.c" />
-    <ClCompile Include="$(SolutionDir)..\src\agent.c" />
-    <ClCompile Include="$(SolutionDir)..\src\bcrypt_pbkdf.c" />
-    <ClCompile Include="$(SolutionDir)..\src\blowfish.c" />
-    <ClCompile Include="$(SolutionDir)..\src\channel.c" />
-    <ClCompile Include="$(SolutionDir)..\src\comp.c" />
-    <ClCompile Include="$(SolutionDir)..\src\crypt.c" />
-    <ClCompile Include="$(SolutionDir)..\src\global.c" />
-    <ClCompile Include="$(SolutionDir)..\src\hostkey.c" />
-    <ClCompile Include="$(SolutionDir)..\src\keepalive.c" />
-    <ClCompile Include="$(SolutionDir)..\src\kex.c" />
-    <ClCompile Include="$(SolutionDir)..\src\knownhost.c" />
-    <ClCompile Include="$(SolutionDir)..\src\mac.c" />
-    <ClCompile Include="$(SolutionDir)..\src\misc.c" />
-    <ClCompile Include="$(SolutionDir)..\src\packet.c" />
-    <ClCompile Include="$(SolutionDir)..\src\pem.c" />
-    <ClCompile Include="$(SolutionDir)..\src\publickey.c" />
-    <ClCompile Include="$(SolutionDir)..\src\scp.c" />
-    <ClCompile Include="$(SolutionDir)..\src\session.c" />
-    <ClCompile Include="$(SolutionDir)..\src\sftp.c" />
-    <ClCompile Include="$(SolutionDir)..\src\transport.c" />
-    <ClCompile Include="$(SolutionDir)..\src\userauth.c" />
-    <ClCompile Include="$(SolutionDir)..\src\version.c" />
+    <ClCompile Include="$(ProjectDir)..\..\src\openssl.c" />
+    <ClCompile Include="$(ProjectDir)..\..\src\agent.c" />
+    <ClCompile Include="$(ProjectDir)..\..\src\bcrypt_pbkdf.c" />
+    <ClCompile Include="$(ProjectDir)..\..\src\blowfish.c" />
+    <ClCompile Include="$(ProjectDir)..\..\src\channel.c" />
+    <ClCompile Include="$(ProjectDir)..\..\src\comp.c" />
+    <ClCompile Include="$(ProjectDir)..\..\src\crypt.c" />
+    <ClCompile Include="$(ProjectDir)..\..\src\global.c" />
+    <ClCompile Include="$(ProjectDir)..\..\src\hostkey.c" />
+    <ClCompile Include="$(ProjectDir)..\..\src\keepalive.c" />
+    <ClCompile Include="$(ProjectDir)..\..\src\kex.c" />
+    <ClCompile Include="$(ProjectDir)..\..\src\knownhost.c" />
+    <ClCompile Include="$(ProjectDir)..\..\src\mac.c" />
+    <ClCompile Include="$(ProjectDir)..\..\src\misc.c" />
+    <ClCompile Include="$(ProjectDir)..\..\src\packet.c" />
+    <ClCompile Include="$(ProjectDir)..\..\src\pem.c" />
+    <ClCompile Include="$(ProjectDir)..\..\src\publickey.c" />
+    <ClCompile Include="$(ProjectDir)..\..\src\scp.c" />
+    <ClCompile Include="$(ProjectDir)..\..\src\session.c" />
+    <ClCompile Include="$(ProjectDir)..\..\src\sftp.c" />
+    <ClCompile Include="$(ProjectDir)..\..\src\transport.c" />
+    <ClCompile Include="$(ProjectDir)..\..\src\userauth.c" />
+    <ClCompile Include="$(ProjectDir)..\..\src\version.c" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="$(SolutionDir)..\src\openssl.h" />
-    <ClInclude Include="$(SolutionDir)..\src\blf.h" />
-    <ClInclude Include="$(SolutionDir)..\src\channel.h" />
-    <ClInclude Include="$(SolutionDir)..\src\comp.h" />
-    <ClInclude Include="$(SolutionDir)..\src\crypto.h" />
-    <ClInclude Include="$(SolutionDir)..\src\libssh2_priv.h" />
-    <ClInclude Include="$(SolutionDir)..\src\mac.h" />
-    <ClInclude Include="$(SolutionDir)..\src\misc.h" />
-    <ClInclude Include="$(SolutionDir)..\src\packet.h" />
-    <ClInclude Include="$(SolutionDir)..\src\session.h" />
-    <ClInclude Include="$(SolutionDir)..\src\sftp.h" />
-    <ClInclude Include="$(SolutionDir)..\src\transport.h" />
-    <ClInclude Include="$(SolutionDir)..\src\userauth.h" />
+    <ClInclude Include="$(ProjectDir)..\..\src\openssl.h" />
+    <ClInclude Include="$(ProjectDir)..\..\src\blf.h" />
+    <ClInclude Include="$(ProjectDir)..\..\src\channel.h" />
+    <ClInclude Include="$(ProjectDir)..\..\src\comp.h" />
+    <ClInclude Include="$(ProjectDir)..\..\src\crypto.h" />
+    <ClInclude Include="$(ProjectDir)..\..\src\libssh2_priv.h" />
+    <ClInclude Include="$(ProjectDir)..\..\src\mac.h" />
+    <ClInclude Include="$(ProjectDir)..\..\src\misc.h" />
+    <ClInclude Include="$(ProjectDir)..\..\src\packet.h" />
+    <ClInclude Include="$(ProjectDir)..\..\src\session.h" />
+    <ClInclude Include="$(ProjectDir)..\..\src\sftp.h" />
+    <ClInclude Include="$(ProjectDir)..\..\src\transport.h" />
+    <ClInclude Include="$(ProjectDir)..\..\src\userauth.h" />
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="$(SolutionDir)..\win32\libssh2.rc" />
+    <ResourceCompile Include="$(ProjectDir)..\..\win32\libssh2.rc" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Header Files">

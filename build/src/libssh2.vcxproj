@@ -70,7 +70,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>$(SolutionDir)..\include;E:\My Projects\openssl\include;C:\Strawberry\c\include;$(SolutionDir)src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\..\include;$(ProjectDir)..\..\..\openssl\build\openssl\$(Platform)\$(Configuration)\include;$(ProjectDir)..\src;$(ProjectDir)..\..\..\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <CompileAs>CompileAsC</CompileAs>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -86,10 +86,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;LIBSSH2_OPENSSL;LIBSSH2_HAVE_ZLIB=1;LIBSSH2_DH_GEX_NEW=1;LIBSSH2_WIN32;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;LIBSSH2_CLEAR_MEMORY;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>$(SolutionDir)..\include;E:\My Projects\openssl\include;C:\Strawberry\c\include;$(SolutionDir)src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\..\include;$(ProjectDir)..\..\..\openssl\build\openssl\$(Platform)\$(Configuration)\include;$(ProjectDir)..\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>$(SolutionDir)..\include;E:\My Projects\openssl\include;C:\Strawberry\c\include;$(SolutionDir)src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\..\include;$(ProjectDir)..\..\..\openssl\build\openssl\$(Platform)\$(Configuration)\include;$(ProjectDir)..\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -100,7 +100,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>$(SolutionDir)..\include;E:\My Projects\openssl\include;C:\Strawberry\c\include;$(SolutionDir)src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\..\include;$(ProjectDir)..\..\..\openssl\build\openssl\$(Platform)\$(Configuration)\include;$(ProjectDir)..\src;$(ProjectDir)..\..\..\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <CompileAs>CompileAsC</CompileAs>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -116,10 +116,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;LIBSSH2_OPENSSL;LIBSSH2_HAVE_ZLIB=1;LIBSSH2_DH_GEX_NEW=1;LIBSSH2_WIN32;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;LIBSSH2_CLEAR_MEMORY;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>$(SolutionDir)..\include;E:\My Projects\openssl\include;C:\Strawberry\c\include;$(SolutionDir)src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\..\include;$(ProjectDir)..\..\..\openssl\build\openssl\$(Platform)\$(Configuration)\include;$(ProjectDir)..\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>$(SolutionDir)..\include;E:\My Projects\openssl\include;C:\Strawberry\c\include;$(SolutionDir)src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\..\include;$(ProjectDir)..\..\..\openssl\build\openssl\$(Platform)\$(Configuration)\include;$(ProjectDir)..\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -130,7 +130,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>$(SolutionDir)..\include;E:\My Projects\openssl\include;C:\Strawberry\c\include;$(SolutionDir)src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\..\include;$(ProjectDir)..\..\..\openssl\build\openssl\$(Platform)\$(Configuration)\include;$(ProjectDir)..\src;$(ProjectDir)..\..\..\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <CompileAs>CompileAsC</CompileAs>
       <ExceptionHandling>
       </ExceptionHandling>
@@ -146,10 +146,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;LIBSSH2_OPENSSL;LIBSSH2_HAVE_ZLIB=1;LIBSSH2_DH_GEX_NEW=1;LIBSSH2_WIN32;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;LIBSSH2_CLEAR_MEMORY;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>$(SolutionDir)..\include;E:\My Projects\openssl\include;C:\Strawberry\c\include;$(SolutionDir)src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\..\include;$(ProjectDir)..\..\..\openssl\build\openssl\$(Platform)\$(Configuration)\include;$(ProjectDir)..\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>$(SolutionDir)..\include;E:\My Projects\openssl\include;C:\Strawberry\c\include;$(SolutionDir)src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\..\include;$(ProjectDir)..\..\..\openssl\build\openssl\$(Platform)\$(Configuration)\include;$(ProjectDir)..\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -160,7 +160,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>$(SolutionDir)..\include;E:\My Projects\openssl\include;C:\Strawberry\c\include;$(SolutionDir)src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\..\include;$(ProjectDir)..\..\..\openssl\build\openssl\$(Platform)\$(Configuration)\include;$(ProjectDir)..\src;$(ProjectDir)..\..\..\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <CompileAs>CompileAsC</CompileAs>
       <ExceptionHandling>
       </ExceptionHandling>
@@ -176,10 +176,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;LIBSSH2_OPENSSL;LIBSSH2_HAVE_ZLIB=1;LIBSSH2_DH_GEX_NEW=1;LIBSSH2_WIN32;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;LIBSSH2_CLEAR_MEMORY;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>$(SolutionDir)..\include;E:\My Projects\openssl\include;C:\Strawberry\c\include;$(SolutionDir)src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\..\include;$(ProjectDir)..\..\..\openssl\build\openssl\$(Platform)\$(Configuration)\include;$(ProjectDir)..\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>$(SolutionDir)..\include;E:\My Projects\openssl\include;C:\Strawberry\c\include;$(SolutionDir)src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\..\include;$(ProjectDir)..\..\..\openssl\build\openssl\$(Platform)\$(Configuration)\include;$(ProjectDir)..\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -189,43 +189,43 @@
     <Lib />
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="$(SolutionDir)..\src\openssl.c" />
-    <ClInclude Include="$(SolutionDir)..\src\openssl.h" />
-    <ClCompile Include="$(SolutionDir)..\src\agent.c" />
-    <ClInclude Include="$(SolutionDir)..\src\blf.h" />
-    <ClCompile Include="$(SolutionDir)..\src\bcrypt_pbkdf.c" />
-    <ClCompile Include="$(SolutionDir)..\src\blowfish.c" />
-    <ClCompile Include="$(SolutionDir)..\src\channel.c" />
-    <ClInclude Include="$(SolutionDir)..\src\channel.h" />
-    <ClCompile Include="$(SolutionDir)..\src\comp.c" />
-    <ClInclude Include="$(SolutionDir)..\src\comp.h" />
-    <ClCompile Include="$(SolutionDir)..\src\crypt.c" />
-    <ClInclude Include="$(SolutionDir)..\src\crypto.h" />
-    <ClCompile Include="$(SolutionDir)..\src\global.c" />
-    <ClCompile Include="$(SolutionDir)..\src\hostkey.c" />
-    <ClCompile Include="$(SolutionDir)..\src\keepalive.c" />
-    <ClCompile Include="$(SolutionDir)..\src\kex.c" />
-    <ClCompile Include="$(SolutionDir)..\src\knownhost.c" />
-    <ClInclude Include="$(SolutionDir)..\src\libssh2_priv.h" />
-    <ClCompile Include="$(SolutionDir)..\src\mac.c" />
-    <ClInclude Include="$(SolutionDir)..\src\mac.h" />
-    <ClCompile Include="$(SolutionDir)..\src\misc.c" />
-    <ClInclude Include="$(SolutionDir)..\src\misc.h" />
-    <ClCompile Include="$(SolutionDir)..\src\packet.c" />
-    <ClInclude Include="$(SolutionDir)..\src\packet.h" />
-    <ClCompile Include="$(SolutionDir)..\src\pem.c" />
-    <ClCompile Include="$(SolutionDir)..\src\publickey.c" />
-    <ClCompile Include="$(SolutionDir)..\src\scp.c" />
-    <ClCompile Include="$(SolutionDir)..\src\session.c" />
-    <ClInclude Include="$(SolutionDir)..\src\session.h" />
-    <ClCompile Include="$(SolutionDir)..\src\sftp.c" />
-    <ClInclude Include="$(SolutionDir)..\src\sftp.h" />
-    <ClCompile Include="$(SolutionDir)..\src\transport.c" />
-    <ClInclude Include="$(SolutionDir)..\src\transport.h" />
-    <ClCompile Include="$(SolutionDir)..\src\userauth.c" />
-    <ClInclude Include="$(SolutionDir)..\src\userauth.h" />
-    <ClCompile Include="$(SolutionDir)..\src\version.c" />
-    <ResourceCompile Include="$(SolutionDir)..\win32\libssh2.rc" />
+    <ClCompile Include="$(ProjectDir)..\..\src\openssl.c" />
+    <ClInclude Include="$(ProjectDir)..\..\src\openssl.h" />
+    <ClCompile Include="$(ProjectDir)..\..\src\agent.c" />
+    <ClInclude Include="$(ProjectDir)..\..\src\blf.h" />
+    <ClCompile Include="$(ProjectDir)..\..\src\bcrypt_pbkdf.c" />
+    <ClCompile Include="$(ProjectDir)..\..\src\blowfish.c" />
+    <ClCompile Include="$(ProjectDir)..\..\src\channel.c" />
+    <ClInclude Include="$(ProjectDir)..\..\src\channel.h" />
+    <ClCompile Include="$(ProjectDir)..\..\src\comp.c" />
+    <ClInclude Include="$(ProjectDir)..\..\src\comp.h" />
+    <ClCompile Include="$(ProjectDir)..\..\src\crypt.c" />
+    <ClInclude Include="$(ProjectDir)..\..\src\crypto.h" />
+    <ClCompile Include="$(ProjectDir)..\..\src\global.c" />
+    <ClCompile Include="$(ProjectDir)..\..\src\hostkey.c" />
+    <ClCompile Include="$(ProjectDir)..\..\src\keepalive.c" />
+    <ClCompile Include="$(ProjectDir)..\..\src\kex.c" />
+    <ClCompile Include="$(ProjectDir)..\..\src\knownhost.c" />
+    <ClInclude Include="$(ProjectDir)..\..\src\libssh2_priv.h" />
+    <ClCompile Include="$(ProjectDir)..\..\src\mac.c" />
+    <ClInclude Include="$(ProjectDir)..\..\src\mac.h" />
+    <ClCompile Include="$(ProjectDir)..\..\src\misc.c" />
+    <ClInclude Include="$(ProjectDir)..\..\src\misc.h" />
+    <ClCompile Include="$(ProjectDir)..\..\src\packet.c" />
+    <ClInclude Include="$(ProjectDir)..\..\src\packet.h" />
+    <ClCompile Include="$(ProjectDir)..\..\src\pem.c" />
+    <ClCompile Include="$(ProjectDir)..\..\src\publickey.c" />
+    <ClCompile Include="$(ProjectDir)..\..\src\scp.c" />
+    <ClCompile Include="$(ProjectDir)..\..\src\session.c" />
+    <ClInclude Include="$(ProjectDir)..\..\src\session.h" />
+    <ClCompile Include="$(ProjectDir)..\..\src\sftp.c" />
+    <ClInclude Include="$(ProjectDir)..\..\src\sftp.h" />
+    <ClCompile Include="$(ProjectDir)..\..\src\transport.c" />
+    <ClInclude Include="$(ProjectDir)..\..\src\transport.h" />
+    <ClCompile Include="$(ProjectDir)..\..\src\userauth.c" />
+    <ClInclude Include="$(ProjectDir)..\..\src\userauth.h" />
+    <ClCompile Include="$(ProjectDir)..\..\src\version.c" />
+    <ResourceCompile Include="$(ProjectDir)..\..\win32\libssh2.rc" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
