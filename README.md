@@ -18,17 +18,18 @@ without having to specify hardcoded library paths or names.
 # Installation #
 
   * git clone [libssh2, tested w/ v1.9.0](https://github.com/libssh2/libssh2.git)
-  * Create a folder called build in this directory
   * git clone [libssh2-x86_x64](https://github.com/sridharb1/libssh2-x86_x64.git)
     to another folder
-  * Copy the contents of the folder above to the build folder
+  * Copy the build folder downloaded above to the root of the libssh2
+    source tree.
 
 # Note #
 
 To compile libssh2, you need 
 
   * [zlib, tested w/ v1.2.11](https://github.com/madler/zlib)
-  * [OpenSSL, tested w/ v1.1.1e-DEV](https://github.com/openssl/openssl)
+  * Use my [zlib-x86_x64](https://github.com/sridharb1/zlib-x86_x64) to compile zlib on Windows.
+  * [OpenSSL, tested w/ v1.1.1g-DEV](https://github.com/openssl/openssl)
   * You can use my [openssl-x86_x64](https://github.com/sridharb1/openssl-x86_x64) to compile openssl on Windows.
   * [libssh, tested w/ v0.9.3](https://git.libssh.org/projects/libssh.git/)
   * You can use my [libssh-x86_x64](https://github.com/sridharb1/libssh-x86_x64.git) to compile libssh on Windows
