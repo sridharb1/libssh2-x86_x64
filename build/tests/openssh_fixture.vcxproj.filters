@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="$(ProjectDir)..\..\tests\openssh_fixture.c" />
+    <ClCompile Include="$(SolutionDir)..\tests\openssh_fixture.c" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="$(ProjectDir)..\..\tests\openssh_fixture.h" />
+    <ClInclude Include="$(SolutionDir)..\tests\openssh_fixture.h" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Header Files">
